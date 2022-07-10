@@ -14,12 +14,13 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-  let count = 0;
-    for (let i = 0; i < arrayOfNumbers.length; i++) {
-      count += i;
-    }
+   let count = 0;
+   for (let i = 0; i < arrayOfNumbers.length; i++) {
+     count += i;
+   }
   return count;
 }
+
 
 /**
  * Challenge - 2
@@ -32,12 +33,12 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   let count = 0;
- for (let i = 0; i < arrayOfNumbers.length; i++) {
-      if ( i % 2 === 0) {
-        count++
-      }
-    }
-  return count
+   for (let i = 0; i < arrayOfNumbers.length; i++) {
+     if (i % 2 === 0) {
+       count++
+     }
+   }
+  return count;
 }
 
 
